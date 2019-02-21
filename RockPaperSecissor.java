@@ -18,7 +18,7 @@ public class RockPaperScissor {
 		// randomly generate computerChoice number between 1 and 3
 		int computerChoice = range.nextInt(3) + 1;
 		
-		//properties
+		//properties : use number to represent rock, paper, and scissors
 		
 		int rock = 1;
 		int paper = 2;
