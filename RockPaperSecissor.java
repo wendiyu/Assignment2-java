@@ -18,14 +18,15 @@ public class RockPaperScissor {
 		// randomly generate computerChoice number between 1 and 3
 		int computerChoice = range.nextInt(3) + 1;
 		
-		//properties : use number to represent rock, paper, and scissors
+		//properties:use number to represent rock, paper, and scissors
 		
 		int rock = 1;
 		int paper = 2;
 		int scissor = 3;
 		
 		// intro text
-		System.out.println("Rock, paper, scissors!Enter these following number for specific; 1 (Rock)  2 (Paper) 3 (Scissors):");
+		System.out.println("Rock, paper, scissors!Enter these following number for specific;"
+				+ " 1 (Rock)  2 (Paper) 3 (Scissors):");
 		
 		// user input number
 		int userChoice = userInput.nextInt();
